@@ -54,7 +54,7 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="btnGuardar" min="-2" pref="223" max="-2" attributes="0"/>
+                                  <Component id="btnGuardarCambios" min="-2" pref="223" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Component id="btnLimpiar" min="-2" pref="107" max="-2" attributes="0"/>
                               </Group>
@@ -84,7 +84,7 @@
                   <Component id="jLabel2" min="-2" pref="322" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnGuardar" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
+                      <Component id="btnGuardarCambios" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                       <Component id="btnLimpiar" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
@@ -300,7 +300,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnGuardar">
+        <Component class="javax.swing.JButton" name="btnGuardarCambios">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Dialog" size="18" style="0"/>
@@ -308,7 +308,7 @@
             <Property name="text" type="java.lang.String" value="Guardar Cambios"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarCambiosActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>

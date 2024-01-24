@@ -309,6 +309,8 @@ public class CargaDatos extends javax.swing.JFrame {
         JDialog dialog = optionPane.createDialog(" Guardado exitoso"); //Dialogo que se muestra
         dialog.setAlwaysOnTop(true); // siempre alrriba 
         dialog.setVisible(true); // Siempre visible
+        
+        this.dispose();
     }//GEN-LAST:event_btnGuardarActionPerformed
 
    
